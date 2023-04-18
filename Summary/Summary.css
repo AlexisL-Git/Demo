@@ -1,0 +1,149 @@
+.bigCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62vw;
+  height: 300px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 15px;
+  font-family: Helvetica;
+}
+
+.blueCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  background: linear-gradient(0, rgb(50, 45, 235), rgb(103, 67, 255));
+  border-radius: 15px;
+}
+
+.whiteCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cercle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  background: linear-gradient(0, rgb(70, 51, 237), rgb(74, 35, 204));
+}
+
+.grey {
+  color: rgb(205, 198, 255);
+  text-align: center;
+}
+
+.greyRightCard {
+  color: rgb(180, 175, 183);
+}
+
+.quatorzePx {
+  font-size: 12px;
+}
+
+.bigPx {
+  font-size: 7vw;
+}
+
+.boutonContinue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(48, 59, 89);
+  color: white;
+  width: 75%;
+  height: 3vw;
+  margin: 2vw;
+}
+
+.card {
+  border-radius: 5px;
+  width: 75%;
+  height: 4vw;
+  margin: 1vw;
+  justify-contact: space-between;
+}
+
+.card1 {
+  background-color: rgb(255, 246, 245);
+}
+.card2 {
+  background-color: rgb(255, 250, 240);
+}
+.card3 {
+  background-color: rgb(242, 251, 250);
+}
+.card4 {
+  background-color: rgb(243, 243, 253);
+}
+
+.red {
+  color: rgb(215, 103, 103);
+  align-self: center;
+}
+
+.yellow {
+  color: rgb(238, 184, 76);
+  align-self: center;
+}
+.green {
+  color: rgb(76, 159, 143);
+  align-self: center;
+}
+.blue {
+  color: rgb(25, 39, 127);
+}
+
+.summary {
+  align-self: flex-start;
+  justify-content: flex-start;
+  /* haut | droit | bas | gauche */
+  margin: 3vw 3vw 3vw 3vw;
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  align-content: center;
+  float: right;
+}
+
+@media screen and (min-width: 500px) {
+  .bigCard {
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bigCard {
+    flex-direction: column;
+    box-shadow: 0px 0px 0px;
+  }
+  .whiteCard {
+    box-shadow: 0px 5px 20px #999;
+  }
+  .blueCard {
+    box-shadow: 0px 5px 20px #999;
+    /* haut | droit | bas | gauche */
+    margin: 30vw 0vw 0vw 0vw;
+  }
+}
